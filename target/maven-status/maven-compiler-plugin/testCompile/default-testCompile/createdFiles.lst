@@ -1,0 +1,4 @@
+com\cheapoair\ca\BaseTest.class
+com\cheapoair\ca\CAtoIN.class
+com\cheapoair\ca\E2EFlightSearchRoundTrip.class
+com\cheapoair\ca\LoginPage.class
