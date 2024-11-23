@@ -1,5 +1,7 @@
 package com.cheapoair.ca;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -19,11 +21,15 @@ public class BaseTest {
 	public void setUp()
 	{
 	driver=  new ChromeDriver();
-	driver.manage().window().maximize();
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
+<<<<<<< HEAD
 	
 	System.out.println("One line removed from the code and new line added here");
 	System.out.println("Changes MAde in the Main brnach Now");
+=======
+	System.out.println("Making changess when IM in Branch1");
+>>>>>>> faa21c77f17793a699c7ee2dacd39bd5065fc4db
 	}
 	
 	@AfterClass
