@@ -21,10 +21,9 @@ public class BaseTest {
 	public void setUp()
 	{
 	driver=  new ChromeDriver();
-	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)));
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
-	
-	System.out.println("One line removed from the old code and new line added here");
+	System.out.println("Making changess when IM in Branch1");
 	}
 	
 	@AfterClass
