@@ -23,8 +23,6 @@ public class BaseTest {
 	driver=  new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
-
-	
 	System.out.println("One line removed from the code and new line added here");
 	System.out.println("Changes MAde in the Main brnach Now");
 
