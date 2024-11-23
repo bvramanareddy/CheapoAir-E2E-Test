@@ -23,13 +23,11 @@ public class BaseTest {
 	driver=  new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	
-<<<<<<< HEAD
-	
 	System.out.println("One line removed from the code and new line added here");
 	System.out.println("Changes MAde in the Main brnach Now");
-=======
+
 	System.out.println("Making changess when IM in Branch1");
->>>>>>> faa21c77f17793a699c7ee2dacd39bd5065fc4db
+
 	}
 	
 	@AfterClass
