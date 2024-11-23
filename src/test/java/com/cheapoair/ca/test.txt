@@ -1,11 +1,4 @@
-<<<<<<< HEAD
+
 Line 1- Branch 1
 Line 2- BRanch 3
-=======
-<<<<<<< HEAD
-Hi This is change I am doing in Branch1-  Also Added this line extra and delted a word from previous
-This is the change I am doing from Master
-=======
-Hi This is the change I am doing in Branch1
->>>>>>> faa21c77f17793a699c7ee2dacd39bd5065fc4db
->>>>>>> 87c3f3de3f5d25f455986f213e7b9325b7691b76
+
